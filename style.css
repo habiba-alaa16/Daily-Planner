@@ -1,0 +1,102 @@
+body {
+  font-family: Arial, sans-serif;
+  background-image: url('pngtree-watercolor-science-education-promotion-background-picture-image_1288409.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  width: 400px;
+  background: rgb(239, 209, 232);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.192);
+}
+
+h2 {
+  text-align: center;
+  color: #542f7b;
+  margin-bottom: 20px;
+}
+
+h3 {
+  color: #542f7b;
+}
+
+.task-input {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.task-input input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+}
+
+.task-input button {
+  background: #6b4495;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+}
+
+.task-input button:hover {
+  background: #360864;
+}
+
+.saved-tasks {
+  margin-top: 20px;
+}
+
+.task-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #e8f5e9;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  transition: background-color 0.3s;
+}
+
+.task-item.completed {
+  background: #c8e6c9;
+  text-decoration: line-through;
+}
+
+.task-item button {
+  margin-left: 10px;
+  background: #800000;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.task-item button.complete-btn {
+  background: #6b4495;
+}
+
+.task-item button:hover {
+  opacity: 0.8;
+}
+
+.task-counter {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 16px;
+  color: #6b4495;
+}
